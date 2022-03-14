@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+ @font-face {
+     font-family: "Jamshid";
+     src: url("./ресурсы/Lobster-Regular.ttf");
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jamshid";
+
+}
+body{
+    height: 3000px;
+}
+.flex{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+.flex_item{
+    width: 25%;
+    height: 100%;
+    border: 3px solid rgb(15, 218, 150);
+    margin: 0px 20px;
+}
+
+.grid{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    /* grid-template-columns: auto auto auto ; */
+    /* grid-template-columns: 100px 200px 150px 300px; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: 100px 60px ;
+
+}
+
+
+.grid_item{
+    border: 3px solid aqua;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+
+
+.text{
+    font-family: 'Amatic SC', cursive;
+}
+
+.container p{
+    color: red;
+}
+
+/* .container> p{}--- qilinsa divning ichidagi childlargagina ta`sir qiladi qoladi. Yani faqat bolalarga. */
+/* .container p{}--- esa div ichidagi barcha p larga ta`sir qiladi */
+
+.container ~ p{
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
